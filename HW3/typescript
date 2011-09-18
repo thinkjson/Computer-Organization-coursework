@@ -1,0 +1,44 @@
+Script started on Sat 17 Sep 2011 08:20:30 PM EDT
+]0;mscahill@vir1:~/Computer-Organization-coursework/HW3[mscahill@vir1 HW3]$ cat comparator.esp 
+.i 4
+.o 2
+.ilb a b c d
+.ob F1 F2
+.p 16
+0000 11
+0001 01
+0010 01
+0011 01
+0100 10
+0101 11
+0110 01
+0111 01
+1000 10
+1001 10
+1010 11
+1011 01
+1100 10
+1101 10
+1110 10
+1111 11
+.e
+
+]0;mscahill@vir1:~/Computer-Organization-coursework/HW3[mscahill@vir1 HW3]$ espresso comparator.esp 
+.i 4
+.o 2
+.ilb a b c d
+.ob F1 F2
+.p 8
+--00 10
+1--0 10
+00-- 01
+-01- 01
+0101 11
+1111 11
+1-0- 10
+0-1- 01
+.e
+]0;mscahill@vir1:~/Computer-Organization-coursework/HW3[mscahill@vir1 HW3]$ x[Kexit
+exit
+
+Script done on Sat 17 Sep 2011 08:21:49 PM EDT
